@@ -9,7 +9,7 @@ public class Main {
         double x = 5.23;
         double y = 13.58;
         float w = 27.22f;
-        float e = 0;
+        float e = 25.3f;
 
         double result1;
         double result2;
