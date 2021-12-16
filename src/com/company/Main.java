@@ -16,12 +16,13 @@ public class Main {
         double result3;
         double result4;
 
-        result1 = x + y - a / 2 * (x + w);
-        result2 = a * (x + x) / y - a * 3;
-        result3 = a + b / x - y;
-        if (e != 0) {
+
+        if (e != 0 && x != 0 && y != 0) {
+            result1 = x + y - a / 2 * (x + w);
+            result2 = a * (x + x) / y - a * 3;
+            result3 = a + b / x - y;
             result4 = X - e / 2 % e + 1;
-        } else throw new ArithmeticException("e=0, cannot be divided by zero");
+        } else throw new ArithmeticException("x, y or e = 0, cannot be divided by zero");
 
 
         System.out.println(result1);
